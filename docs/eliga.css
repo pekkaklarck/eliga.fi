@@ -156,37 +156,26 @@ Pimped for Eliga by peke
 
 /* MISC STYLES */
 
-    img.picture {
+    a img {
         float: right;
         border: solid 1px #666666;
         margin-left: 0.5em;
     }
-    a img.picture:hover {
+    a img:hover {
         border: solid 1px #CC6714;
-    }
-    table.contacts {
-        font-size: 0.9em;
-    }
-    table.contacts th {
-        vertical-align:  top;
-        text-align: left;
-        padding: 0.3em 1em 0.3em 0em;
-        width: 10em;
-    }
-    table.contacts td {
-        padding: 0.3em 0em;
-        vertical-align: top;
-    }
-    table.contacts table td, table.contacts table {
-        padding: 0;
-        margin: 0;
-        vertical-align: baseline;
     }
 
     .these-abstract-note {
         font-style: italic;
         font-size: 0.9em;
     }
+
+/* DOCUTILS OVERRIDES/CONFIG */
+
+    h1, h2, h3, dl.field-list > dt {
+        clear: inherit;
+    }
+
 
 
 /* And they lived happily ever after. The End. */
