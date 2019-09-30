@@ -1,4 +1,4 @@
-Contact Cnformation
+Contact Information
 ===================
 
 :Address:
