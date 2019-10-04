@@ -1,181 +1,26 @@
-/* --------------------------------------------------
-CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
-
-Pimped for Eliga by peke
--------------------------------------------------- */
-
-/* CONTAINER */
-
-    body {
-        font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif;
-        color: #666666;
-        background-color: white;
-        font-size: 14px;
-        line-height: 1.4em;
-    }
-
-    #container {
-        width: 750px;
-        margin: 0 auto;
-    }
-
-
-/* GENERAL MOJO AND MULA */
-
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: normal;
-        font-size: 2.2em;
-        margin: 0em;
-        color: #CC6633;
-        letter-spacing: 0.05em;
-    }
-    h2, h3, h4, h5, h6 {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #666666;
-    }
-    h2 {
-        font-size: 1.3em;
-    }
-    h3 {
-        font-size: 1.1em;
-    }
-    h4 {
-        font-size: 1em;
-    }
-
-    a {
-        color: #CC6714;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #CC6714;
-        background-color: #F5F5F5;
-        text-decoration: underline;
-    }
-
-
-/* HEADER ELEMENTS */
-
-    #header {
-        border-bottom: 4px solid #948979;
-        clear: both;
-        margin: 2.5em 0em 1em 0em;
-    }
-
-
-    /* the slogan */
-    #header p {
-        font-size: 0.9em;
-        margin: 0.8em 3em;
-        color: #999999;
-        letter-spacing: 0.1em;
-    }
-
-
-/* NAVIGATION ELEMENTS */
-
-    #navibar {
-        float: left;
-        width: 20%;
-        font-size: 0.8em;
-    }
-    #navibar ul {
-        margin: 0em;
-        padding: 0em;
-        list-style-type: none;
-    }
-    #navibar a {
-        display: block;
-        width: 95%;
-        padding: 2.5%;
-        border-bottom: 1px solid #CCC;
-        text-decoration: none;
-        letter-spacing: 0.1em;
-    }
-
-    #navibar a:link, #navlist a:visited {
-        color: #CC6714;
-        text-decoration: none;
-    }
-
-    #navibar a:hover {
-        background: #000000 url(arrow.gif) 96% 50% no-repeat;
-        background-color: #F5F5F5;
-        color: #CC6714;
-        text-decoration: none;
-    }
-
-    /* the notice box */
-    #navibar p {
-        margin-top: 3em;
-        padding: 0.5em;
-        border-bottom: 1px dotted #CCC;
-        border-top: 1px dotted #CCC;
-    }
-
-
-/* CONTENT ELEMENTS */
-
-    #content {
-        margin-left: 23%;
-        margin-right: 0.5em;
-    }
-
-    /* #content p {
-        padding-bottom: 10px;
-        border-bottom: 1px solid #DDDDDD;
-    } */
-
-
-/* FOOTER ELEMENTS */
-
-    #footer {
-        margin-top: 5em;
-        clear: both;
-        background-color: #575352;
-        font-size: 0.7em;
-    }
-
-    #footer p {
-        color: #89817F;
-        padding: 0.3em 1em;
-    }
-
-    #footer p a {
-        color: #89817F;
-        border-bottom: 1px dotted #89817F;
-    }
-
-    #footer p a:hover {
-        color: white;
-        background-color: #575352;
-    }
-
-
-/* MISC STYLES */
-
-    a img {
-        float: right;
-        border: solid 1px #666666;
-        margin-left: 0.5em;
-    }
-    a img:hover {
-        border: solid 1px #CC6714;
-    }
-
-    .these-abstract-note {
-        font-style: italic;
-        font-size: 0.9em;
-    }
-
-/* DOCUTILS OVERRIDES/CONFIG */
-
-    h1, h2, h3, dl.field-list > dt {
-        clear: inherit;
-    }
-
-
-
-/* And they lived happily ever after. The End. */
+img.right {
+    float: right;
+    border: solid 1px #666666;
+    margin-left: 0.5em;
+}
+a img:hover {
+    border: solid 1px #CC6714;
+}
+#contact table {
+    font-size: 0.9em;
+}
+#contact table th {
+    vertical-align:  top;
+    text-align: left;
+    padding: 0.3em 1em 0.3em 0em;
+    width: 10em;
+}
+#contact table td {
+    padding: 0.3em 0em;
+    vertical-align: top;
+}
+#contact table, #contact table td {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+}
