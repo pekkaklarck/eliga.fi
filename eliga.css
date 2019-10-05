@@ -6,9 +6,6 @@ img.right {
 a img:hover {
     border: solid 1px #CC6714;
 }
-#contact table {
-    font-size: 0.9em;
-}
 #contact table th {
     vertical-align:  top;
     text-align: left;
