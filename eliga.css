@@ -1,23 +1,18 @@
-img.right {
+.right {
     float: right;
-    border: solid 1px #666666;
     margin-left: 0.5em;
+}
+a img {
+    border: solid 1px #666666;
 }
 a img:hover {
     border: solid 1px #CC6714;
 }
-#contact table th {
+#contact th, #contact td {
     vertical-align:  top;
     text-align: left;
-    padding: 0.3em 1em 0.3em 0em;
-    width: 10em;
-}
-#contact table td {
     padding: 0.3em 0em;
-    vertical-align: top;
 }
-#contact table, #contact table td {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
+#contact th {
+    width: 10em;
 }
